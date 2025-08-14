@@ -82,7 +82,7 @@ function App() {
             </div>
           ))
         ) : (
-          <p>whishlist not found</p>
+          <p>wishlist not found</p>
         )}
          
         </div>
