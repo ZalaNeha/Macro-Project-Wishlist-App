@@ -46,9 +46,9 @@ function App() {
     
       
       <div className='App'>
-        <h1>My Whishlist</h1>
+        <h1>My Wishlist</h1>
         <div className="input-group">
-          <input value={todo} onChange={onTodochange} placeholder='Add Your whishlist Here..'/>
+          <input value={todo} onChange={onTodochange} placeholder='Add Your wishlist Here..'/>
           <button className="add-btn" onClick={onAddtodoclick}>Add</button>
         </div>
         
@@ -78,7 +78,7 @@ function App() {
                 
               </label>
               <button className="delete-btn" onClick={() => onDeleteclick(item.id)}>🗑</button>
-             {/* <button className="delete-btn" onClick={()=>onDeleteclick(todo.id)}>delete</button> */}
+             
             </div>
           ))
         ) : (
